@@ -1,0 +1,11 @@
+:root{
+   /* CSS HEX */
+--preto: #000000ff;
+--azul-forte: #14213dff;
+--laranja: #fca311ff;
+--branco: #e5e5e5ff;
+}
+
+body{
+    background-color: var(--preto);
+}

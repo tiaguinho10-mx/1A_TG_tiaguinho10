@@ -7,5 +7,41 @@
 }
 
 body{
-    background-color: var(--preto);
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 20px 0;
+    text-align: center;
+    max-width: 90%;
+}
+
+button{
+    background-color: var(--azul-forte);
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    color: rgb(253, 253, 253);
+    box-shadow: 2px 2px 5px var(--branco);
+}
+
+button:hover{
+    background-color: var(--laranja);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
 }
